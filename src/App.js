@@ -1,23 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import MainScreen from "./screens/MainScreen";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex-1 h-screen bg-blue-400 flex flex-col justify-center items-center m-auto">
+      <MainScreen />
     </div>
   );
 }
